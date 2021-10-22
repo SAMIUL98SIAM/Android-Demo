@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/nameTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/name_text"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:id="@+id/ageTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:text="@string/age_text"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text"
+            android:textSize="19sp" />
+    </ScrollView>
+
+
+</LinearLayout>
